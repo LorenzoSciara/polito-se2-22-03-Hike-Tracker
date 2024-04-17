@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.guideBtn{
+  background-color: #00706c !important;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hike-form {
+  flex: 1;
+  width: 100%;
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.link-form {
+  flex: 1;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.hike-form-group{
+  padding:40px;
+}
+
+.form-group{
+  flex:1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.asterisk-required {
+  color:red;
+}
+
+.form-container {
+  justify-content: center;
+  margin:auto;
+  align-items: center; 
+  height: auto;
+}
+.display-container {
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  border-radius: 8px;
+  background-color: white;
+  padding:40px;
+}
+
+.myTable{
+    padding-top:40px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.table > :not(:first-child) {
+  border-top: 0 !important;
+}
+
+.tableHeader{
+  background-color: #00706c;
+  padding:0;
+}
+
+.infoHidden{
+  display:none;
+}
+
+.infoVisible{
+  background-color: #00000006;
+}
+
+.extraInfo{
+  text-align: justify;
+}
+
+.hutTableHeader{
+  color: white;
+  text-align: center;
+}
+
+.icons-style{
+  font-size: 22px;
+
+}
+
+.center{
+  flex:1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-hut{
+  max-width: 95% !important;
+}
+
+.hiker-label{
+  width:35% !important;
+}
